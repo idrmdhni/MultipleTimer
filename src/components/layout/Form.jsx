@@ -37,12 +37,12 @@ export default function Form({
               <div className="flex flex-col justify-center items-center">
                 <div
                   onClick={() => onIncrement(hours, "hours")}
-                  className="border-t-4 border-l-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] cursor-pointer"
+                  className="border-t-4 border-l-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] active:border-[#3e60c1] cursor-pointer"
                 ></div>
                 <TimeInput value={hours} onChangeValue={onChangeHours} />
                 <div
                   onClick={() => onDecrement(hours, "hours")}
-                  className="border-b-4 border-r-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] cursor-pointer"
+                  className="border-b-4 border-r-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] active:border-[#3e60c1] cursor-pointer"
                 ></div>
               </div>
               <span className="text-2xl text-[#a9aebb] font-medium mx-2">
@@ -51,12 +51,12 @@ export default function Form({
               <div className="flex flex-col justify-center items-center">
                 <div
                   onClick={() => onIncrement(minutes, "minutes")}
-                  className="border-t-4 border-l-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] cursor-pointer"
+                  className="border-t-4 border-l-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] active:border-[#3e60c1] cursor-pointer"
                 ></div>
                 <TimeInput value={minutes} onChangeValue={onChangeMinutes} />
                 <div
                   onClick={() => onDecrement(minutes, "minutes")}
-                  className="border-b-4 border-r-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] cursor-pointer"
+                  className="border-b-4 border-r-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] active:border-[#3e60c1] cursor-pointer"
                 ></div>
               </div>
               <span className="text-2xl text-[#a9aebb] font-medium mx-2">
@@ -65,12 +65,12 @@ export default function Form({
               <div className="flex flex-col justify-center items-center">
                 <div
                   onClick={() => onIncrement(seconds, "seconds")}
-                  className="border-t-4 border-l-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] cursor-pointer"
+                  className="border-t-4 border-l-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] active:border-[#3e60c1] cursor-pointer"
                 ></div>
                 <TimeInput value={seconds} onChangeValue={onChangeSeconds} />
                 <div
                   onClick={() => onDecrement(seconds, "seconds")}
-                  className="border-b-4 border-r-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] cursor-pointer"
+                  className="border-b-4 border-r-4 p-2 rotate-45 border-[#2e4583] duration-150 hover:border-[#3e60c1] active:border-[#3e60c1] cursor-pointer"
                 ></div>
               </div>
             </div>
