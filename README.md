@@ -1,12 +1,36 @@
-# React + Vite
+# ⌛ Multiple Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ini adalah aplikasi web sederhana untuk mengatur beberapa timer secara bersamaan. Aplikasi ini dibuat menggunakan **React** dan **Vite**, serta **Tailwind CSS** untuk styling.
 
-Currently, two official plugins are available:
+## Fitur Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Tambah Timer Tak Terbatas**: Menambahkan timer sebanyak yang dibutuhkan. Setiap timer akan berjalan secara independen.
+- **Hapus Timer**: Dapat dengan mudah menghapus timer yang sudah tidak diperlukan.
+- **Penyimpanan Lokal**: Timer yang sedang berjalan akan disimpan di _local storage_, sehingga tidak akan hilang bahkan setelah me-refresh halaman.
+- **Desain Responsif**: Antarmuka yang bersih dan dapat digunakan dengan baik di berbagai ukuran layar.
 
-## Expanding the ESLint configuration
+## Teknologi yang Digunakan
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Vite**
+- **React.js**
+- **Tailwind CSS**
+
+## Cara Menjalankan Proyek
+
+1.  **Clone repository ini:**
+    ```bash
+    git clone <URL-repository-Anda>
+    ```
+2.  **Masuk ke direktori proyek:**
+    ```bash
+    cd MultipleTimer-2f5160cef42083c1c539e22065ca22b4fddd5f87
+    ```
+3.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
+4.  **Jalankan development server:**
+    ```bash
+    npm run dev
+    ```
+5.  Buka browser dan kunjungi `http://localhost:5173` (atau port lain yang ditampilkan di terminal).
