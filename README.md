@@ -19,11 +19,11 @@ Ini adalah aplikasi web sederhana untuk mengatur beberapa timer secara bersamaan
 
 1.  **Clone repository ini:**
     ```bash
-    git clone <URL-repository-Anda>
+    git clone https://github.com/idrmdhni/MultipleTimer.git
     ```
 2.  **Masuk ke direktori proyek:**
     ```bash
-    cd MultipleTimer-2f5160cef42083c1c539e22065ca22b4fddd5f87
+    cd MultipleTimer
     ```
 3.  **Install dependencies:**
     ```bash
